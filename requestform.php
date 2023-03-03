@@ -6,8 +6,8 @@ require("class.pop3.php");
 
 if($_POST){
 	$cname=$_POST['cname'];
-	$mobile=$_POST['cmobile'];
-	$email=$_POST['cemail'];
+	$cmobile=$_POST['cmobile'];
+	$cemail=$_POST['cemail'];
 
        
 //Third Party
