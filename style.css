@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+#btnsub{
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
