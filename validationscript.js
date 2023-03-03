@@ -9,7 +9,7 @@ jQuery(document).ready(function(e) {
 				if(valid) {
 					$("#btnsub").attr("enable", true);
 					jQuery.ajax({
-					url: "https://github.com/Sk7805/check/edit/main/requestform.php",
+					url: "https://github.com/Sk7805/check/main/requestform.php",
 					type: "POST",
 					data:  new FormData(this),
 					contentType: false,
@@ -18,7 +18,7 @@ jQuery(document).ready(function(e) {
 					success: function(data){
                         $("#mail-status").html(data);
 						document.getElementById("contact-form").reset();
-						window.location.href="https://github.com/Sk7805/check/edit/main/thankyou.jpeg";
+						window.location.href="https://github.com/Sk7805/check/main/thankyou.jpeg";
 						/*$('#loader-icon').hide();*/
 					},
 					error: function(){} 
