@@ -18,7 +18,7 @@ jQuery(document).ready(function(e) {
 					success: function(data){
                         $("#mail-status").html(data);
 						document.getElementById("contact-form").reset();
-						window.location.href="https://github.com/Sk7805/check/main/thankyou.jpeg";
+						window.location.href="thankyou.jpeg";
 						/*$('#loader-icon').hide();*/
 					},
 					error: function(){} 
