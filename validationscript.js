@@ -9,7 +9,7 @@ jQuery(document).ready(function(e) {
 				if(valid) {
 					$("#btnsub").attr("enable", true);
 					jQuery.ajax({
-					url: "https://github.com/Sk7805/check/main/requestform.php",
+					url: "requestform.php",
 					type: "POST",
 					data:  new FormData(this),
 					contentType: false,
