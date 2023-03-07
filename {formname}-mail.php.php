@@ -45,7 +45,7 @@ or
        $mailer1 = new PHPMailer();
        $mailer1->IsSMTP();
        $mailer1->SMTPSecure ='ssl';
-       $mailer1->Host ='santhosh.sk1243gmail.com';
+       $mailer1->Host ='';
        $mailer1->Port =465;
        $mailer1->SMTPAuth =TRUE;
        $mailer1->Username ='';  
