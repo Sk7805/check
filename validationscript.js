@@ -18,7 +18,7 @@ jQuery(document).ready(function(e) {
 					success: function(data){
                         $("#mail-status").html(data);
 						document.getElementById("contact-form").reset();
-						window.location.href="thankyou.jpeg";
+						window.location.href="thank-you.jpeg";
 						/*$('#loader-icon').hide();*/
 					},
 					error: function(){} 
