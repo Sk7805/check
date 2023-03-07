@@ -15,13 +15,13 @@ if($_POST){
        $mailer = new PHPMailer();
        $mailer->IsSMTP();
        $mailer->SMTPSecure ='ssl';
-       $mailer->Host ='santhosh.sk1243gmail.com';
+       $mailer->Host ='';
        $mailer->Port =465;
        $mailer->SMTPAuth =TRUE;
        $mailer->Username ='';  
        $mailer->Password ='';  
-       $mailer->From ='';
-       $mailer->FromName =''; 
+       $mailer->From ='santhosh.sk1243@gmail.com';
+       $mailer->FromName ='santhosh'; 
        $mailer->IsHTML(true); 
        $email_subject="Thank you for your interest";      
        $email_body="
